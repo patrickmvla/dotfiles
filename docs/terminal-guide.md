@@ -29,7 +29,7 @@ Run `work` from inside a project, or give it a project name from anywhere:
 
 ```
 work              # use the folder you are in
-work bumara       # jump to a project you have visited before
+work myproject    # jump to a project you have visited before
 ```
 
 It opens a new tab laid out like this:
@@ -66,7 +66,7 @@ Selecting text with the mouse copies it. `Ctrl+V` pastes.
 
 | Command | What it does |
 |---|---|
-| `z bum` | Jump to the best match for "bum" among folders you have visited |
+| `z proj` | Jump to the best match for "proj" among folders you have visited |
 | `zi` | Pick a visited folder from a list |
 | `Alt-C` | Pick a subfolder of where you are and jump into it |
 | `cd -` | Go back to the previous folder |
